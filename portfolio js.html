@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://localhost:64939/e9fd5304-ecce-4c7b-ac59-f55931a54b89/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--<base href="http://localhost:64939/e9fd5304-ecce-4c7b-ac59-f55931a54b89/">--><base href=".">
+	<title>script.js</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./portfolio js_files/default.css" rel="stylesheet">
+	<link href="./portfolio js_files/line-numbers.css" rel="stylesheet">
+	<link href="./portfolio js_files/colour-scheme.css" rel="stylesheet">
+	<link href="./portfolio js_files/settings.css" rel="stylesheet">
+	
+	<script type="text/javascript">
+		function printAndClose(enabled) {
+			if (enabled) {
+				window.addEventListener("afterprint", (event) => {
+					fetch("completed").then(window.close);
+				});
+				setTimeout(window.print, 500);
+			}
+		} 
+	</script>
+</head>
+
+<body onload="printAndClose(true)">
+	<h3>script.js</h3>
+	<div>
+		<table class="hljs">
+<tbody><tr><td class="line-number">1</td><td class="line-text"><span class="hljs-keyword">const</span> header =<wbr> <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">"<wbr>header"<wbr></span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">2</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">3</td><td class="line-text"><span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">"<wbr>scroll"<wbr></span>,<wbr> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)<wbr></span>{
+</td></tr>
+<tr><td class="line-number">4</td><td class="line-text">    header.classList.toggle(<span class="hljs-string">"<wbr>sticky"<wbr></span>,<wbr><span class="hljs-built_in">window</span>.scrollY&gt;<wbr><span class="hljs-number">0</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">5</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">6</td><td class="line-text">}<wbr>)<wbr></td></tr>
+</tbody></table>
+	</div>
+
+
+</body></html>

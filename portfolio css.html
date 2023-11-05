@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://localhost:64939/5aadfa78-dbea-43ef-851e-519416a63074/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--<base href="http://localhost:64939/5aadfa78-dbea-43ef-851e-519416a63074/">--><base href=".">
+	<title>style.css</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./portfolio css_files/default.css" rel="stylesheet">
+	<link href="./portfolio css_files/line-numbers.css" rel="stylesheet">
+	<link href="./portfolio css_files/colour-scheme.css" rel="stylesheet">
+	<link href="./portfolio css_files/settings.css" rel="stylesheet">
+	
+	<script type="text/javascript">
+		function printAndClose(enabled) {
+			if (enabled) {
+				window.addEventListener("afterprint", (event) => {
+					fetch("completed").then(window.close);
+				});
+				setTimeout(window.print, 500);
+			}
+		} 
+	</script>
+</head>
+
+<body onload="printAndClose(true)">
+	<h3>style.css</h3>
+	<div>
+		<table class="hljs">
+<tbody><tr><td class="line-number">1</td><td class="line-text">*{
+</td></tr>
+<tr><td class="line-number">2</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">3</td><td class="line-text">    <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">4</td><td class="line-text">    <span class="hljs-attribute">box-sizing</span>: border-box;<wbr>
+</td></tr>
+<tr><td class="line-number">5</td><td class="line-text">    <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'<wbr>Quicksand'<wbr></span>,<wbr> sans-serif;<wbr>
+</td></tr>
+<tr><td class="line-number">6</td><td class="line-text"><span class="hljs-attribute">list-style</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">7</td><td class="line-text"><span class="hljs-attribute">text-decoration</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">8</td><td class="line-text">scroll-behavior: smooth;<wbr>
+</td></tr>
+<tr><td class="line-number">9</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">10</td><td class="line-text"><span class="hljs-selector-pseudo">:root</span>{
+</td></tr>
+<tr><td class="line-number">11</td><td class="line-text">    --bg-<span class="hljs-attribute">color</span>: <span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#020312; stroke:black"></rect></svg> #020312</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">12</td><td class="line-text">    --text-<span class="hljs-attribute">color</span>: <span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#fff; stroke:black"></rect></svg> #fff</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">13</td><td class="line-text">    --<span class="hljs-selector-tag">main</span>-<span class="hljs-attribute">color</span>: <span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#eb4a4a; stroke:black"></rect></svg> #eb4a4a</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">14</td><td class="line-text">    --second-<span class="hljs-attribute">color</span>:gray;<wbr>
+</td></tr>
+<tr><td class="line-number">15</td><td class="line-text">    --other-<span class="hljs-attribute">color</span>:<span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#12141c; stroke:black"></rect></svg> #12141c</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">16</td><td class="line-text">    --<span class="hljs-selector-tag">h1</span>-<span class="hljs-attribute">font</span>: <span class="hljs-number">5.2rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">17</td><td class="line-text">    --<span class="hljs-selector-tag">h2</span>-<span class="hljs-attribute">font</span>: <span class="hljs-number">3.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">18</td><td class="line-text">    --<span class="hljs-selector-tag">p</span>-<span class="hljs-attribute">font</span>: <span class="hljs-number">1.1rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">19</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">20</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">21</td><td class="line-text"><span class="hljs-selector-tag">body</span>{
+</td></tr>
+<tr><td class="line-number">22</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--bg-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">23</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">24</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">25</td><td class="line-text"><span class="hljs-selector-tag">header</span>{
+</td></tr>
+<tr><td class="line-number">26</td><td class="line-text">    <span class="hljs-attribute">position</span>: fixed;<wbr>
+</td></tr>
+<tr><td class="line-number">27</td><td class="line-text">    <span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">28</td><td class="line-text">    <span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">29</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">30</td><td class="line-text">    <span class="hljs-attribute">z-index</span>: <span class="hljs-number">1000</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">31</td><td class="line-text">    <span class="hljs-attribute">display</span>: flex;<wbr>
+</td></tr>
+<tr><td class="line-number">32</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">33</td><td class="line-text">    <span class="hljs-attribute">justify-content</span>: space-between;<wbr>
+</td></tr>
+<tr><td class="line-number">34</td><td class="line-text">    <span class="hljs-attribute">background</span>: transparent;<wbr>
+</td></tr>
+<tr><td class="line-number">35</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">22px</span> <span class="hljs-number">16%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">36</td><td class="line-text">    <span class="hljs-attribute">border-bottom</span>: <span class="hljs-number">1px</span> solid transparent;<wbr>
+</td></tr>
+<tr><td class="line-number">37</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">40</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">38</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">39</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">40</td><td class="line-text"><span class="hljs-selector-class">.logo</span>{
+</td></tr>
+<tr><td class="line-number">41</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">135px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">42</td><td class="line-text">    <span class="hljs-attribute">height</span>:auto;<wbr>
+</td></tr>
+<tr><td class="line-number">43</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">44</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">45</td><td class="line-text"><span class="hljs-selector-class">.navbar</span>{
+</td></tr>
+<tr><td class="line-number">46</td><td class="line-text">    <span class="hljs-attribute">display</span>: flex;<wbr>
+</td></tr>
+<tr><td class="line-number">47</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">48</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">49</td><td class="line-text"><span class="hljs-selector-class">.navbar</span> <span class="hljs-selector-tag">a</span>{
+</td></tr>
+<tr><td class="line-number">50</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">51</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--other-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">52</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">53</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">25px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">54</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">2px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">55</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">56</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">40</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">57</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">58</td><td class="line-text"><span class="hljs-selector-class">.navbar</span> <span class="hljs-selector-tag">a</span> {
+</td></tr>
+<tr><td class="line-number">59</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">60</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--p-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">61</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">62</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">25px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">63</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">2px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">64</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">65</td><td class="line-text">    <span class="hljs-attribute">transition</span>:all .<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">66</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">67</td><td class="line-text"><span class="hljs-selector-class">.navbar</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span>{
+</td></tr>
+<tr><td class="line-number">68</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">69</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">70</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">71</td><td class="line-text"><span class="hljs-selector-id">#menu-ico</span>{
+</td></tr>
+<tr><td class="line-number">72</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">36px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">73</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">74</td><td class="line-text">    <span class="hljs-attribute">z-index</span>: <span class="hljs-number">10001</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">75</td><td class="line-text">    <span class="hljs-attribute">cursor</span>: pointer;<wbr>
+</td></tr>
+<tr><td class="line-number">76</td><td class="line-text">    <span class="hljs-attribute">display</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">77</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">78</td><td class="line-text"><span class="hljs-selector-tag">section</span> {
+</td></tr>
+<tr><td class="line-number">79</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">160px</span> <span class="hljs-number">16%</span> <span class="hljs-number">90px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">80</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">81</td><td class="line-text"><span class="hljs-selector-class">.home</span>{
+</td></tr>
+<tr><td class="line-number">82</td><td class="line-text">    <span class="hljs-attribute">height</span>: <span class="hljs-number">150vh</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">83</td><td class="line-text">    <span class="hljs-attribute">position</span>: relative;<wbr>
+</td></tr>
+<tr><td class="line-number">84</td><td class="line-text">    <span class="hljs-attribute">width</span>:<span class="hljs-number">100%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">85</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">IMG-20201225-WA0066.jpg</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">86</td><td class="line-text">    <span class="hljs-attribute">background-size</span>: cover;<wbr>
+</td></tr>
+<tr><td class="line-number">87</td><td class="line-text">    <span class="hljs-attribute">background-position</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">88</td><td class="line-text">    <span class="hljs-attribute">display</span>: flex;<wbr>
+</td></tr>
+<tr><td class="line-number">89</td><td class="line-text">    <span class="hljs-attribute">align-items</span>:center;<wbr>
+</td></tr>
+<tr><td class="line-number">90</td><td class="line-text">    justify-self: flex-start;<wbr>
+</td></tr>
+<tr><td class="line-number">91</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">92</td><td class="line-text">    
+</td></tr>
+<tr><td class="line-number">93</td><td class="line-text">    
+</td></tr>
+<tr><td class="line-number">94</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">95</td><td class="line-text"><span class="hljs-selector-class">.home-text</span> <span class="hljs-selector-tag">h1</span>{
+</td></tr>
+<tr><td class="line-number">96</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">97</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--h1-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">98</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: bold;<wbr>
+</td></tr>
+<tr><td class="line-number">99</td><td class="line-text">    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.1</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">100</td><td class="line-text">    <span class="hljs-attribute">letter-spacing</span>: <span class="hljs-number">2px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">101</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">102</td><td class="line-text"><span class="hljs-selector-tag">span</span>{
+</td></tr>
+<tr><td class="line-number">103</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">104</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">105</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">106</td><td class="line-text"><span class="hljs-selector-class">.home-text</span> <span class="hljs-selector-tag">h4</span>{
+</td></tr>
+<tr><td class="line-number">107</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">108</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">109</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">110</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">111</td><td class="line-text"><span class="hljs-selector-class">.home-text</span> <span class="hljs-selector-tag">h3</span>{
+</td></tr>
+<tr><td class="line-number">112</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">113</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">114</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">3rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">115</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">116</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">117</td><td class="line-text"><span class="hljs-selector-class">.btn</span>{
+</td></tr>
+<tr><td class="line-number">118</td><td class="line-text">    <span class="hljs-attribute">display</span>: inline-block;<wbr>
+</td></tr>
+<tr><td class="line-number">119</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">14px</span> <span class="hljs-number">40px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">120</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">121</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">17px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">122</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">500</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">123</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">124</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">125</td><td class="line-text">    <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">126</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">127</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">128</td><td class="line-text"><span class="hljs-selector-class">.btn</span><span class="hljs-selector-pseudo">:hover</span>{
+</td></tr>
+<tr><td class="line-number">129</td><td class="line-text">    <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">scale</span>(<span class="hljs-number">1.01</span>)<wbr> <span class="hljs-built_in">translateY</span>(<span class="hljs-number">10px</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">130</td><td class="line-text">    <span class="hljs-attribute">background</span>: transparent;<wbr>
+</td></tr>
+<tr><td class="line-number">131</td><td class="line-text">    <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">132</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">133</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">134</td><td class="line-text"><span class="hljs-selector-tag">header</span><span class="hljs-selector-class">.sticky</span>{
+</td></tr>
+<tr><td class="line-number">135</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">16%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">136</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--bg-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">137</td><td class="line-text">    <span class="hljs-attribute">border-bottom</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#0e1630</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">138</td><td class="line-text">    <span class="hljs-attribute">transition</span>: .<span class="hljs-number">3s</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">139</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">140</td><td class="line-text"><span class="hljs-selector-class">.about</span>{
+</td></tr>
+<tr><td class="line-number">141</td><td class="line-text">    <span class="hljs-attribute">display</span>: grid;<wbr>
+</td></tr>
+<tr><td class="line-number">142</td><td class="line-text">    grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">2</span>,<wbr> <span class="hljs-number">1</span>fr)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">143</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">144</td><td class="line-text">    gap: <span class="hljs-number">2rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">145</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">146</td><td class="line-text"><span class="hljs-selector-class">.about-text</span> <span class="hljs-selector-tag">h4</span>{
+</td></tr>
+<tr><td class="line-number">147</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">148</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">149</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">150</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">151</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">152</td><td class="line-text"><span class="hljs-selector-class">.about-text</span> <span class="hljs-selector-tag">h2</span>{
+</td></tr>
+<tr><td class="line-number">153</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--h2-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">154</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">155</td><td class="line-text"><span class="hljs-selector-class">.about-text</span> <span class="hljs-selector-tag">p</span>{
+</td></tr>
+<tr><td class="line-number">156</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">157</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--p-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">158</td><td class="line-text">    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">159</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">2rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">160</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">161</td><td class="line-text"><span class="hljs-selector-class">.about-gri</span>{
+</td></tr>
+<tr><td class="line-number">162</td><td class="line-text">    <span class="hljs-attribute">display</span>: grid;<wbr>
+</td></tr>
+<tr><td class="line-number">163</td><td class="line-text">    grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(auto-fit,<wbr> <span class="hljs-built_in">minmax</span>(<span class="hljs-number">250px</span>,<wbr> auto)<wbr>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">164</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">165</td><td class="line-text">    gap: <span class="hljs-number">1rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">166</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">3rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">167</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">168</td><td class="line-text"><span class="hljs-selector-class">.about-in</span> <span class="hljs-selector-tag">h5</span>{
+</td></tr>
+<tr><td class="line-number">169</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">22px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">170</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">171</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">172</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">173</td><td class="line-text"><span class="hljs-selector-class">.about-img</span> <span class="hljs-selector-tag">img</span>{
+</td></tr>
+<tr><td class="line-number">174</td><td class="line-text">    <span class="hljs-attribute">height</span>: auto;<wbr>
+</td></tr>
+<tr><td class="line-number">175</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">176</td><td class="line-text">    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">460px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">177</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">178</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">179</td><td class="line-text"><span class="hljs-selector-class">.main-text</span>{
+</td></tr>
+<tr><td class="line-number">180</td><td class="line-text">    <span class="hljs-attribute">text-align</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">181</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">182</td><td class="line-text"><span class="hljs-selector-class">.main-text</span> <span class="hljs-selector-tag">h2</span>{
+</td></tr>
+<tr><td class="line-number">183</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--h2-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">184</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">185</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">186</td><td class="line-text"><span class="hljs-selector-class">.main-text</span> <span class="hljs-selector-tag">h4</span>{
+</td></tr>
+<tr><td class="line-number">187</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">188</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">189</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">190</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">191</td><td class="line-text"><span class="hljs-selector-class">.services-content</span>{
+</td></tr>
+<tr><td class="line-number">192</td><td class="line-text">    <span class="hljs-attribute">display</span>: grid;<wbr>
+</td></tr>
+<tr><td class="line-number">193</td><td class="line-text">    grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(auto-fit,<wbr><span class="hljs-built_in">minmax</span>(<span class="hljs-number">300px</span>,<wbr> auto)<wbr>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">194</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">195</td><td class="line-text">    <span class="hljs-attribute">text-align</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">196</td><td class="line-text">    gap: <span class="hljs-number">2rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">197</td><td class="line-text">    <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">198</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">199</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">200</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">201</td><td class="line-text"><span class="hljs-selector-class">.box</span> <span class="hljs-selector-tag">h3</span>{
+</td></tr>
+<tr><td class="line-number">202</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">24px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">203</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">204</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">15px</span> <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">205</td><td class="line-text">    <span class="hljs-attribute">transition</span>:all .<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">206</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">207</td><td class="line-text"><span class="hljs-selector-class">.box</span> <span class="hljs-selector-tag">p</span>{
+</td></tr>
+<tr><td class="line-number">208</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">209</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--p-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">210</td><td class="line-text">    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">211</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">212</td><td class="line-text"><span class="hljs-selector-class">.box</span><span class="hljs-selector-pseudo">:hover</span>{
+</td></tr>
+<tr><td class="line-number">213</td><td class="line-text">    <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">scale</span>(<span class="hljs-number">1.01</span>)<wbr> <span class="hljs-built_in">translateY</span>(-<span class="hljs-number">5px</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">214</td><td class="line-text">    <span class="hljs-attribute">border-top</span>: <span class="hljs-number">5px</span> solid <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">215</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">216</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">217</td><td class="line-text"><span class="hljs-selector-class">.contact</span>{
+</td></tr>
+<tr><td class="line-number">218</td><td class="line-text">    <span class="hljs-attribute">display</span>: grid;<wbr>
+</td></tr>
+<tr><td class="line-number">219</td><td class="line-text">    grid-template-<span class="hljs-attribute">columns</span>: <span class="hljs-built_in">repeat</span>(<span class="hljs-number">2</span>,<wbr> <span class="hljs-number">1</span>fr)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">220</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">221</td><td class="line-text">    gap: <span class="hljs-number">3rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">222</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">223</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">224</td><td class="line-text"><span class="hljs-selector-class">.contact-text</span> <span class="hljs-selector-tag">h4</span>{
+</td></tr>
+<tr><td class="line-number">225</td><td class="line-text">    <span class="hljs-attribute">margin</span>: <span class="hljs-number">15px</span> <span class="hljs-number">0</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">226</td><td class="line-text">    <span class="hljs-attribute">color</span>:<span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">227</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">228</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">229</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">230</td><td class="line-text"><span class="hljs-selector-class">.contact-text</span> <span class="hljs-selector-tag">p</span>{
+</td></tr>
+<tr><td class="line-number">231</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">232</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--p-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">233</td><td class="line-text">    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">234</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">2rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">235</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">236</td><td class="line-text"><span class="hljs-selector-class">.contact-list</span>{
+</td></tr>
+<tr><td class="line-number">237</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">3rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">238</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">239</td><td class="line-text"><span class="hljs-selector-class">.contact-list</span> <span class="hljs-selector-tag">li</span>{
+</td></tr>
+<tr><td class="line-number">240</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">241</td><td class="line-text">    <span class="hljs-attribute">display</span>: block;<wbr>
+</td></tr>
+<tr><td class="line-number">242</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">243</td><td class="line-text"><span class="hljs-selector-class">.contact-list</span> <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">a</span>{
+</td></tr>
+<tr><td class="line-number">244</td><td class="line-text">    <span class="hljs-attribute">display</span>: block;<wbr>
+</td></tr>
+<tr><td class="line-number">245</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">246</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-built_in">var</span>(--p-font)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">247</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">248</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">249</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">250</td><td class="line-text"><span class="hljs-selector-class">.contact-list</span> <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-pseudo">:hover</span>{
+</td></tr>
+<tr><td class="line-number">251</td><td class="line-text">    <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">scale</span>(<span class="hljs-number">1.01</span>)<wbr><span class="hljs-built_in">translateY</span>(-<span class="hljs-number">5px</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">252</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">253</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">254</td><td class="line-text"><span class="hljs-selector-class">.contact-icons</span> <span class="hljs-selector-tag">i</span>{
+</td></tr>
+<tr><td class="line-number">255</td><td class="line-text">    <span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">256</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">40px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">257</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#12141c; stroke:black"></rect></svg> #12141c</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">258</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">259</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">260</td><td class="line-text">    <span class="hljs-attribute">display</span>: inline-flex;<wbr>
+</td></tr>
+<tr><td class="line-number">261</td><td class="line-text">    <span class="hljs-attribute">align-items</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">262</td><td class="line-text">    <span class="hljs-attribute">justify-content</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">263</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">264</td><td class="line-text">    <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">10px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">265</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">266</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">267</td><td class="line-text"><span class="hljs-selector-class">.contact-icons</span> <span class="hljs-selector-tag">i</span><span class="hljs-selector-pseudo">:hover</span>{
+</td></tr>
+<tr><td class="line-number">268</td><td class="line-text">    <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">scale</span>(<span class="hljs-number">1.01</span>)<wbr><span class="hljs-built_in">translateY</span>(-<span class="hljs-number">5px</span>)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">269</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">270</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">271</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">272</td><td class="line-text"><span class="hljs-selector-class">.contact-form</span> <span class="hljs-selector-tag">form</span>{
+</td></tr>
+<tr><td class="line-number">273</td><td class="line-text">    <span class="hljs-attribute">position</span>: relative;<wbr>
+</td></tr>
+<tr><td class="line-number">274</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">275</td><td class="line-text"><span class="hljs-selector-class">.contact-form</span> <span class="hljs-selector-tag">form</span> <span class="hljs-selector-tag">input</span>,<wbr>
+</td></tr>
+<tr><td class="line-number">276</td><td class="line-text"><span class="hljs-selector-tag">form</span> <span class="hljs-selector-tag">textarea</span>{
+</td></tr>
+<tr><td class="line-number">277</td><td class="line-text">    <span class="hljs-attribute">border</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">278</td><td class="line-text">    <span class="hljs-attribute">outline</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">279</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">280</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">18px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">281</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-number"><svg height="1em" width="1em"><rect width="1em" height="1em" style="fill:#12141c; stroke:black"></rect></svg> #12141c</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">282</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">283</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">284</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>:<span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">285</td><td class="line-text">    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">286</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">287</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">288</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">289</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">290</td><td class="line-text"><span class="hljs-selector-class">.contact-form</span> <span class="hljs-selector-tag">textarea</span>{
+</td></tr>
+<tr><td class="line-number">291</td><td class="line-text">    <span class="hljs-attribute">resize</span>: none;<wbr>
+</td></tr>
+<tr><td class="line-number">292</td><td class="line-text">    <span class="hljs-attribute">height</span>: <span class="hljs-number">220px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">293</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">294</td><td class="line-text"><span class="hljs-selector-class">.contact-form</span> <span class="hljs-selector-tag">form</span> <span class="hljs-selector-class">.send</span>{
+</td></tr>
+<tr><td class="line-number">295</td><td class="line-text">    <span class="hljs-attribute">display</span>: inline-block;<wbr>
+</td></tr>
+<tr><td class="line-number">296</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">17px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">297</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">500</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">298</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">299</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">300</td><td class="line-text">    <span class="hljs-attribute">width</span>: <span class="hljs-number">190px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">301</td><td class="line-text">    <span class="hljs-attribute">transition</span>: all.<span class="hljs-number">40s</span> ease;<wbr>
+</td></tr>
+<tr><td class="line-number">302</td><td class="line-text">    <span class="hljs-attribute">cursor</span>: pointer;<wbr>
+</td></tr>
+<tr><td class="line-number">303</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">304</td><td class="line-text"><span class="hljs-selector-class">.last-text</span>{
+</td></tr>
+<tr><td class="line-number">305</td><td class="line-text">    <span class="hljs-attribute">text-align</span>: center;<wbr>
+</td></tr>
+<tr><td class="line-number">306</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">15px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">307</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--second-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">308</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">15px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">309</td><td class="line-text">    <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">310</td><td class="line-text">    <span class="hljs-attribute">letter-spacing</span>: <span class="hljs-number">1px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">311</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">312</td><td class="line-text"><span class="hljs-selector-class">.top</span>{
+</td></tr>
+<tr><td class="line-number">313</td><td class="line-text">    <span class="hljs-attribute">position</span>: fixed;<wbr>
+</td></tr>
+<tr><td class="line-number">314</td><td class="line-text">    <span class="hljs-attribute">bottom</span>: <span class="hljs-number">2.1rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">315</td><td class="line-text">    <span class="hljs-attribute">right</span>: <span class="hljs-number">2.1rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">316</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">317</td><td class="line-text"><span class="hljs-selector-class">.top</span> <span class="hljs-selector-tag">i</span>{
+</td></tr>
+<tr><td class="line-number">318</td><td class="line-text">    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--text-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">319</td><td class="line-text">    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--main-color)<wbr>;<wbr>
+</td></tr>
+<tr><td class="line-number">320</td><td class="line-text">    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">321</td><td class="line-text">    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">322</td><td class="line-text">    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.5rem</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">323</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">324</td><td class="line-text"><span class="hljs-keyword">@media</span> (<span class="hljs-attribute">max-width</span>: <span class="hljs-number">132px</span>)<wbr>{
+</td></tr>
+<tr><td class="line-number">325</td><td class="line-text">    <span class="hljs-selector-tag">header</span>{
+</td></tr>
+<tr><td class="line-number">326</td><td class="line-text">        <span class="hljs-attribute">padding</span>: <span class="hljs-number">16px</span> <span class="hljs-number">3%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">327</td><td class="line-text">    }<wbr>
+</td></tr>
+<tr><td class="line-number">328</td><td class="line-text">    <span class="hljs-selector-tag">header</span><span class="hljs-selector-class">.sticky</span>{
+</td></tr>
+<tr><td class="line-number">329</td><td class="line-text">        <span class="hljs-attribute">padding</span>: <span class="hljs-number">8px</span> <span class="hljs-number">3%</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">330</td><td class="line-text">    }<wbr>
+</td></tr>
+<tr><td class="line-number">331</td><td class="line-text">    <span class="hljs-selector-tag">section</span>{
+</td></tr>
+<tr><td class="line-number">332</td><td class="line-text">        <span class="hljs-attribute">padding</span>: <span class="hljs-number">130px</span> <span class="hljs-number">3%</span> <span class="hljs-number">60px</span>;<wbr>
+</td></tr>
+<tr><td class="line-number">333</td><td class="line-text">    }<wbr>
+</td></tr>
+<tr><td class="line-number">334</td><td class="line-text">}<wbr>
+</td></tr>
+<tr><td class="line-number">335</td><td class="line-text">
+</td></tr>
+<tr><td class="line-number">336</td><td class="line-text">&nbsp;<wbr></td></tr>
+</tbody></table>
+	</div>
+
+
+</body></html>
